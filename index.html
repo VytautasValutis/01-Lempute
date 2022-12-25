@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,63 @@
     <title>Break bulb</title>
 </head>
 <body style=" width: 100%;">
-    <main style="background-color: aqua; width: 60%; margin-left: 20%;
-        margin-top: 3%; display: inline-block;">
+    <main style="
+        width: 60%; 
+        margin-left: 20%;
+        margin-top: 3%; 
+        display: inline-block;">
 <!-- virsutinis blokas--> 
+<!--
         <a href="#"> <img src="./sandwich.jpg" alt="Groteliu zenkliukas" style="float: left;"> </a>
+        Zemiau batonas padarytas su CSS biblioteka
+-->        
+        <button type="button" onclick="location.href='./batonas.html'" style="
+        border: none;
+        color: black;
+        background-color: white;
+        cursor: pointer;
+        ">
+        <i class="fa fa-bars"></i>
+    </button>
 <!-- apatinis blokas--> 
-        <div style="background-color:rgb(227, 224, 188); width: 100%; display: inline-block; float: left; ">
+        <div style="
+            background-color:rgb(227, 224, 188); 
+            width: 100%; 
+            display: inline-block; 
+            float: left; ">
 <!-- Lemputes paveiksliukas-->
-            <img src="./viena-lempute.png" alt="Lemputes paveiksliukas" style="width: 40%; display: inline-block; float: left;">    
+            <img src="./viena-lempute.png" alt="Lemputes paveiksliukas" style="
+                width: 40%; 
+                display: inline-block; 
+                float: left;">    
 <!-- Apatinio bloko desine puse-->
-            <div style="background-color: rgb(2, 247, 96); width: 60%; display: inline-block; float: left;">
-                <h1 style="margin-left: 25%; margin-top: 20%; font: 96px verdana;"> 404 </h1>
-                <p style="margin-left: 20%; font: 16px sans-serif;">Lorem ipsum dolor sit amet</p>
-                <p STYLE="margin-left: 20%; font: 10px sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div style="
+                background-color: rgb(2, 247, 96); 
+                width: 60%; 
+                display: inline-block; 
+                float: left;">
+<!--  Nepavyko surasti tinkamo fonto
+                <p style="
+                    margin-left: 22%; 
+                    margin-top: 20%; 
+                    font-family:
+                    'Lucida Grande';
+                    font-size: 96px;
+                    "> 404 </p>
+-->                                 
+                <img src="./404.jpg" alt="Skaiciai 404" style="
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: 5%;
+                ">
+                <p style="
+                    margin-left: 20%; 
+                    font: 16px sans-serif;
+                    ">Lorem ipsum dolor sit amet</p>
+                <p style="
+                    margin-left: 20%; 
+                    font: 10px sans-serif;
+                    ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 <!-- Apatinio bloko apacios dvi dalys-->
                 <div style="margin-top: 10%; background-color: bisque; width: 100%; display: inline-block; float: left;">
                     <div style="width: 35%; display: inline-block; float: left; background-color: cadetblue;">
