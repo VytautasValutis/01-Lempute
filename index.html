@@ -6,106 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Break bulb</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
-<body style=" width: 100%;">
-    <main style="
-        width: 60%; 
-        margin-left: 20%;
-        margin-top: 3%; 
-        display: inline-block;">
+<body>
+    <main>
 <!-- virsutinis blokas--> 
 <!--
         <a href="#"> <img src="./sandwich.jpg" alt="Groteliu zenkliukas" style="float: left;"> </a>
         Zemiau batonas padarytas su CSS biblioteka
+        Klausimas -- ar reikia papildomai aprasineti <header> del vieno elemento?
 -->        
-        <button type="button" onclick="location.href='./batonas.html'" style="
-        border: none;
-        color: black;
-        background-color: white;
-        cursor: pointer;
-        ">
-        <i class="fa fa-bars"></i>
-    </button>
+        <button type="button" onclick="location.href='./batonas.html'">
+            <i class="fa fa-bars"></i>
+        </button>
 <!-- apatinis blokas--> 
-        <div style="
-            width: 100%; 
-            display: inline-block; 
-            float: left; ">
+        <div style="width: 100%;">
 <!-- Lemputes paveiksliukas-->
             <img src="./viena-lempute.png" alt="Lemputes paveiksliukas" style="
-                width: 40%; 
-                display: inline-block; 
-                float: left;">    
+                width: 40%;">    
 <!-- Apatinio bloko desine puse-->
             <div style="
-                width: 60%; 
-                display: inline-block; 
-                float: left;">
-<!--  Nepavyko surasti tinkamo fonto
-                <p style="
-                    margin-left: 22%; 
-                    margin-top: 20%; 
-                    font-family:
-                    'Lucida Grande';
-                    font-size: 96px;
-                    "> 404 </p>
--->                                 
+                width: 60%;">
+<!--  Nepavyko surasti tinkamo fonto -->
                 <img src="./404.jpg" alt="Skaiciai 404" style="
-                    width: 90%;
+                    width: 440px;
                     margin-left: 5%;
                     margin-top: 5%;
                 ">
                 <p style="
+                    display:inline-block;
                     margin-left: 25%; 
                     font-size: 18px;
-                    font-family:'Lucida Sans';
-                    text-transform: uppercase;
-                    font-weight: bold;
                     ">Lorem ipsum dolor sit amet</p>
                 <p style="
                     margin-left: 25%; 
-                    font: 12px sans-serif;
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    text-transform: none;
+                    font-weight: normal;
                     ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 <!-- Apatinio bloko apacios dvi dalys-->
                 <div style="
                     margin-top: 10%; 
-                    width: 100%; display: 
-                    inline-block; 
-                    float: left;">
+                    width: 100%; 
+                    display:inline-block;
+                    ">
                     <div style="
-                        width: 55%; 
-                        display: inline-block; 
-                        float: left; 
-                        ">
-                        <p style="
-                            font: 12px verdana; 
-                            margin-left:45%; 
-                            text-transform: uppercase; 
-                            font-family:'Lucida Sans';
-                            font-weight: bold;
-                            margin-top: 3%;
-                            ">go to home</p>
-                    </div>
-<!--                    
-                    <div style="
-                        display: inline-block; 
-                        float: left; width: 25%; 
-                        background-color: lemonchiffon;">
-                        <a href="#"> <img src="#" alt="Rodykles zenkliukas su nuoroda" style="
-                            font-size: 10px;
-                            margin-top: 10%;"> </a>
--->
+                    width: 60%;
+                    ">
+                    <p style="
+                        font-size: 12px; 
+                        margin-left:40%; 
+                        margin-top: 3%;
+                        display: inline-block;
+                        ">go to home</p>
+                    </div>                        
+                    <div>
                         <button type="button" onclick="location.href='./arrow-right'" style="
-                            border: none;
-                            color: black;
-                            background-color: white;
-                            cursor: pointer;
                             display: inline-block;
-                            margin-top: 1%;
+                            margin-top: 20%;
+                            margin-left: 25%;
                             float: left;
                             ">
                             <i class="fa fa-arrow-right"></i>
-                        </button>                    
+                        </button>
                     </div>
                 </div>
             </div>
