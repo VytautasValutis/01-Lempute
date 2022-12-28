@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+}
+main {
+    width: 800px; 
+    margin-left: calc(50% - 400px);
+    margin-top: 1%; 
+    display: inline-block;
+}
+button {
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+div {
+    display: inline-block; 
+    float: left; 
+}
+img {
+    display: inline-block; 
+    float: left;
+}
+p {
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
