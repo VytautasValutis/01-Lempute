@@ -3,7 +3,6 @@ body{
 }
 header, main, footer {
     width: 800px;
-    background-color: aquamarine;
     margin-left: calc(50% - 400px);
     display: inline-block;
     float: left;
@@ -31,7 +30,6 @@ div {
     width: 500px;
     display: inline-block; 
     float: left; 
-    background-color: bisque;
     display: inline-block;
 }
 #img-num {
@@ -69,10 +67,9 @@ footer {
     margin-left: 425px;
     display: inline-block;
     float: left;
-    background-color: chocolate;
+    text-transform: uppercase;
 }
 #button-last {
-    background-color: chartreuse;
     display: inline-block;
     font-size: 12px;
     line-height: 14px;
