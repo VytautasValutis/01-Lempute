@@ -1,79 +1,71 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-header, main, footer {
+.container {
     width: 800px;
     margin-left: calc(50% - 400px);
     display: inline-block;
     float: left;
+    margin-top: 20px; 
 }
-header {
+.container:first-child {
     margin-top: 30px;
 }
-button {
+.menu {
+    height: 20px;
     float: left;
     display: inline-block;
 }
-main {
-    margin-top: 20px; 
-}
-img {
+.bulb {
     display: inline-block; 
     float: left;
     margin-top: 20px;
-}
-#img-bulb {
     width: 300px;
     height: 340px;
 }
-div {
+.right-col {
     width: 500px;
     display: inline-block; 
     float: left; 
     display: inline-block;
 }
-#img-num {
+.num404 {
     width: 440px;
     margin-left: 30px;
     display: inline-block;
 }
-button {
-    border: none;
-    color: black;
-    background-color: white;
-    cursor: pointer;
-}
-p {
+.line {
     font-family:sans-serif;
     display: inline-block;
     margin-left: 125px;
     float: left;
 }
-#p-first {
+.line:first-of-type {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
 }
-#p-second {
+.line:last-of-type {
     font-size: 14px;
     margin-top: 0;
 }
-footer {
+.container:last-child {
     margin-top: 10px;
 }
-#p-last {
-    font-size: 12px;
+.goto-txt {
+    font-size: 16px;
     margin: 0px;
     margin-left: 425px;
     display: inline-block;
     float: left;
     text-transform: uppercase;
 }
-#button-last {
-    display: inline-block;
-    font-size: 12px;
+.arrow {
+    display: block;
+    font-size: 16px;
     line-height: 14px;
+    text-decoration: none;
     padding: 0;
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
 }
